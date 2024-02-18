@@ -1,4 +1,4 @@
-package com.arya.graphql.dto;
+package com.arya.graphql.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductRequest {
+public class ProductResponse {
+
+    private Long id;
     private String name;
     private String description;
     private Double price;

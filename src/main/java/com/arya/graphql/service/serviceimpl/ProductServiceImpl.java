@@ -1,7 +1,7 @@
 package com.arya.graphql.service.serviceimpl;
 
-import com.arya.graphql.dto.ProductRequest;
-import com.arya.graphql.dto.ProductResponse;
+import com.arya.graphql.dto.request.ProductRequest;
+import com.arya.graphql.dto.response.ProductResponse;
 import com.arya.graphql.model.Product;
 import com.arya.graphql.repository.ProductRepository;
 import com.arya.graphql.service.ProductService;
@@ -11,7 +11,6 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor

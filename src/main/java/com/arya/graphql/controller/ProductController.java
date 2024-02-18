@@ -1,7 +1,7 @@
 package com.arya.graphql.controller;
 
-import com.arya.graphql.dto.ProductRequest;
-import com.arya.graphql.dto.ProductResponse;
+import com.arya.graphql.dto.request.ProductRequest;
+import com.arya.graphql.dto.response.ProductResponse;
 import com.arya.graphql.service.ProductService;
 import com.arya.graphql.util.Response;
 import lombok.RequiredArgsConstructor;
